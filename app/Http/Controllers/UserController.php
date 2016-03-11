@@ -16,11 +16,11 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
 
-        $users = DB::table('users')->get();
-        dd($users);
-        return $users;
+            $users = DB::table('users')->get();
+            dd($users);
+            return $users;
+        
     }
 
     /**
